@@ -1,0 +1,47 @@
+token = 80986717bf112020b71cfbdb4cc8bdb2d473ff0550e83a86d4bfd2a75b69e4842cd9109462679a3f467b1
+
+Git settinds: # Настройки git
+ $ mkdir cd...folder/	# подготовка папки
+ $ cd ...folder/	# оказаться в ней
+ $ git init		# создание репозитория git
+
+File preparation # Подготовка файлов
+ $ git add file.txt/py/..	# добавляем файл
+ $ git add -A			# или все сразу
+ $ git status			# проверка статуса
+ 
+Commit(commit changes) # Коммит(фиксация изменений)
+ $ git commit -m "Initial commit" # создание нового коммита
+				  # -m "твое описание"
+Connect to a remote repository # Подключение к удаленому репозиторию
+ $ git remote add origin https://...    # связываем локальный репозиторий
+					 # с репозиторием GitHub
+					 # origin - имя удаленного репозитория
+
+ $ git remote remove origin # удалить текущий origin
+
+Submitting changes to the server #  Отправка изменений на сервер
+ $ git push origin master  # origin - имя уд. сервера
+			   # master - имя ветки
+(Если не отправляется ! [rejected]        master -> master (non-fast-forward), сделать git push -f origin master и снова отправить на север
+
+
+Repository Cloning #  клонирование репозитория
+ $ git clone https://...
+
+Request changes front the server # Запрос изменений с сервера
+ $ git push origin master
+
+Create a new branch # Создание новой ветки
+ $ git branch new
+
+Switch between branches
+ $ git branch		# просмотр существующих веток
+ $ git checkout new	# переход к новой ветке new
+
+Merge branches # Слияние веток
+ $ git merge new  #  с ветки master вводить
+
+
+
+
