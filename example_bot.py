@@ -8,9 +8,9 @@ def main():
         https://vk.com/dev/bots_longpoll
     """
 
-    vk_session = vk_api.VkApi(token='80986717bf112020b71cfbdb4cc8bdb2d473ff0550e83a86d4bfd2a75b69e4842cd9109462679a3f467b1')
+    vk_session = vk_api.VkApi(token='...')
 
-    longpoll = VkBotLongPoll(vk_session, '163266641')
+    longpoll = VkBotLongPoll(vk_session, '...')
 
     for event in longpoll.listen():
 

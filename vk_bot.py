@@ -7,7 +7,7 @@ def write_msg(user_id, message):
 
 
 # API-key
-token = '80986717bf112020b71cfbdb4cc8bdb2d473ff0550e83a86d4bfd2a75b69e4842cd9109462679a3f467b1'
+token = '...'
 
 # Авторизуемся как сообщество
 vk = vk_api.VkApi(token = token)
